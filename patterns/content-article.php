@@ -7,7 +7,7 @@
 ?>
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2.5%"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"66.66%","style":{"border":{"radius":"0px","width":"0px","style":"none"}}} -->
-<div class="wp-block-column" style="border-style:none;border-width:0px;border-radius:0px;flex-basis:66.66%"><!-- wp:post-featured-image {"aspectRatio":"16/9"} /-->
+<div class="wp-block-column" style="border-style:none;border-width:0px;border-radius:0px;flex-basis:66.66%"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9","linkTarget":"_blank"} /-->
 
 <!-- wp:post-title {"level":1,"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"0"}}}} /-->
 
@@ -29,13 +29,17 @@
 <p><?php esc_html_e('-Marcus Aurelius', 'fr-mirror');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"textAlign":"center","fontSize":"large"} -->
-<h2 class="wp-block-heading has-text-align-center has-large-font-size"><?php esc_html_e('Related Posts', 'fr-mirror');?></h2>
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><?php esc_html_e('Page List', 'fr-mirror');?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-12.jpg" alt="" class="" style="aspect-ratio:1;object-fit:cover"/><figcaption class="wp-element-caption">Typing for change</figcaption></figure>
+<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-12.jpg" alt="" style="aspect-ratio:1;object-fit:cover"/><figcaption class="wp-element-caption">Typing for change</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

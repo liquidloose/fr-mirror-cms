@@ -190,7 +190,7 @@
 						"style": "none",
 						"width": "0px"
 					},
-					"radius": "8px",
+					"radius": "0px",
 					"right": {
 						"style": "none",
 						"width": "0px"
@@ -201,12 +201,14 @@
 						"width": "0px"
 					},
 					"width": null
-				}
+				},
+				"shadow": "6px 6px 9px rgba(0, 0, 0, 0.2)"
 			},
 			"core/post-featured-image": {
 				"border": {
-					"radius": "8px"
-				}
+					"radius": "0px"
+				},
+				"shadow": "6px 6px 9px rgba(0, 0, 0, 0.2)"
 			}
 		},
 		"elements": {
