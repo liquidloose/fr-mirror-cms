@@ -12,7 +12,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A newspaper theme for WordPress
 
-
 == Changelog ==
 
 = 1.0.0 =
